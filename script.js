@@ -18,7 +18,6 @@ const fetchData = async (city_name) => {
   const res = await fetch(`${url}${city_name}&appid=${api_key}`);
   const data = await res.json();
   dataBind(data);
-  // console.log(data);
 };
 
 const getInfo = () => {
