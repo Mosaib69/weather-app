@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy', 'sans-serif';
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 70vh;
+  width: 35vw;
+  background-color: teal;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding: 2rem;
+}
+
+.search-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 1rem;
+  width: 85%;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+button {
+  padding: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto 5px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  color: #fff;
+}
+
+.weather .degree {
+font-size: 3rem;
+font-weight: 500;
+}
+
+.weather .city {
+  font-size: 1.5rem;
+  font-weight: 500;
+  }
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.information i {
+  font-size: 30px;
+}
+
+.left {
+  padding: .5rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.right {
+  padding: .5rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.3rem;
+}
+
+.content .value {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content .name {
+  font-weight: 500;
+}
