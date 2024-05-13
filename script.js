@@ -6,6 +6,7 @@ const btn = document.querySelector("#btn");
 const degree = document.querySelector("#degree");
 const city = document.querySelector("#city");
 const humidity = document.querySelector("#humidity");
+const pressure = document.querySelector("#pressure");
 const windSpeed = document.querySelector("#wind-speed");
 
 window.addEventListener("load", () => fetchData("Delhi"));
@@ -36,10 +37,13 @@ const dataBind = (data) => {
   const cityName = data.name;
   const humid = data.main.humidity;
   const wind = data.wind.speed;
+  const press = data.main.pressure;
+  console.log(data);
 
   degree.innerText = `${actualTemp}\u2103`;
   city.innerText = cityName;
   humidity.innerText = `${humid}%`;
+  pressure.innerText = `${press} hPa`;
   windSpeed.innerText = `${wind} km/h`;
 };
 

@@ -48,7 +48,7 @@ button {
   background-color: #fff;
 }
 
-img {
+.weather-image {
   width: 120px;
   height: 120px;
   margin: 20px auto 5px;
@@ -74,7 +74,7 @@ font-weight: 500;
 
 .information {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px 0;
   color: #fff;
 }
@@ -89,6 +89,12 @@ font-weight: 500;
   gap: .5rem;
 }
 
+.middle {
+  padding: .5rem;
+  display: flex;
+  gap: .5rem;
+}
+
 .right {
   padding: .5rem;
   display: flex;
@@ -98,8 +104,7 @@ font-weight: 500;
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 0.3rem;
+  gap: .2rem;
 }
 
 .content .value {
