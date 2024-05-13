@@ -54,6 +54,14 @@ button {
   margin: 20px auto 5px;
 }
 
+button:hover {
+  background-color: #f0f1f2;
+}
+
+input:hover {
+  background-color: #f0f1f2;
+}
+
 .weather {
   display: flex;
   flex-direction: column;
