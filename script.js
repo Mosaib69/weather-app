@@ -38,7 +38,6 @@ const dataBind = (data) => {
   const humid = data.main.humidity;
   const wind = data.wind.speed;
   const press = data.main.pressure;
-  console.log(data);
 
   degree.innerText = `${actualTemp}\u2103`;
   city.innerText = cityName;
